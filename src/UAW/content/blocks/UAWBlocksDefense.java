@@ -47,7 +47,7 @@ public class UAWBlocksDefense {
 	public static void load() {
 
 		//region Serpulo
-		quadra = new ItemTurret("matterfuser") {{
+		matterfuser = new ItemTurret("matterfuser") {{
 			requirements(Category.turret, with(
 				Items.copper, 115,
 				Items.lead, 120,
