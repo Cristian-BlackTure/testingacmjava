@@ -120,7 +120,7 @@ public class UAWTechTree {
 					node(spitfire, () ->
 							Seq.with(
 								new Research(cyclone)
-							)
+							);
 						)
 					);
 					// Sniper Tree
