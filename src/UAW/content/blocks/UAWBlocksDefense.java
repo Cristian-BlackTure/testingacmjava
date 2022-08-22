@@ -31,7 +31,7 @@ import static mindustry.type.ItemStack.with;
 public class UAWBlocksDefense {
 	public static Block placeholder,
 	// Gatling
-	quadra, spitfire, equalizer,
+	matterfuser, spitfire, equalizer,
 	// Sniper/Railgun
 	ashlock, longbow, deadeye,
 	// Shotcannon
@@ -47,7 +47,7 @@ public class UAWBlocksDefense {
 	public static void load() {
 
 		//region Serpulo
-		quadra = new ItemTurret("quadra") {{
+		quadra = new ItemTurret("matterfuser") {{
 			requirements(Category.turret, with(
 				Items.copper, 115,
 				Items.lead, 120,
