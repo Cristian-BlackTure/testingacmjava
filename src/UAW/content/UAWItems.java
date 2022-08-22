@@ -21,10 +21,6 @@ public class UAWItems {
 		compositeAlloy = new Item("item-composite-alloy", UAWPal.compAlloyMid) {{
 			cost = 2.5f;
                 }};
-		matterialm = new Item("item-matterialm", UAWPal.compAlloyMid) {{
-			flammability = 1.8f;
-			explosiveness = 0.25f;
-			hardness = 4;
-		}};
+
 	}
 }
