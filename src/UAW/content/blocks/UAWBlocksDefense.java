@@ -76,7 +76,7 @@ public class UAWBlocksDefense {
 			}};
 
 			ammo(
-				UWAItems.matterialmatter, new BasicBulletType(5f, 9) {{
+				UAWItems.matterialmatter, new BasicBulletType(5f, 9) {{
 					height = 9f;
 					width = 7f;
 					lifetime = 60f;
@@ -108,7 +108,7 @@ public class UAWBlocksDefense {
 					makeFire = true;
 					lifetime = 60f;
 				}},
-				Items.thorium, new BasicBulletType(5f, 15) {{
+				Items.lead, new BasicBulletType(5f, 15) {{
 					height = 12f;
 					width = 8f;
 					frontColor = UAWPal.cryoFront;
