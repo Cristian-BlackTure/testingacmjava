@@ -53,7 +53,7 @@ public class UAWBlocksDefense {
 				Items.lead, 120,
 				Items.graphite, 80
 			));
-			size = 2;
+			size = 3;
 			scaledHealth = 160;
 
 			reload = 6f;
@@ -76,24 +76,14 @@ public class UAWBlocksDefense {
 			}};
 
 			ammo(
-				Items.copper, new BasicBulletType(5f, 9) {{
+				UWAItems.matterialmatter, new BasicBulletType(5f, 9) {{
 					height = 9f;
 					width = 7f;
 					lifetime = 60f;
 					shootEffect = Fx.shootSmall;
 					smokeEffect = Fx.shootSmallSmoke;
 					ammoMultiplier = 2;
-				}},
-				Items.graphite, new BasicBulletType(6f, 18) {{
-					height = 12f;
-					width = 9f;
-					hitColor = frontColor = UAWPal.graphiteFront;
-					backColor = UAWPal.graphiteBack;
-					hitEffect = Fx.hitBulletColor;
-					reloadMultiplier = 0.6f;
-					ammoMultiplier = 4;
-					lifetime = 60f;
-				}},
+				}}
 				Items.titanium, new TrailBulletType(10f, 10f) {{
 					height = 12f;
 					width = 5f;
@@ -118,7 +108,7 @@ public class UAWBlocksDefense {
 					makeFire = true;
 					lifetime = 60f;
 				}},
-				UAWItems.cryogel, new BasicBulletType(5f, 15) {{
+				Items.thorium, new BasicBulletType(5f, 15) {{
 					height = 12f;
 					width = 8f;
 					frontColor = UAWPal.cryoFront;
