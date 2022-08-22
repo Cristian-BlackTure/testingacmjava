@@ -117,8 +117,7 @@ public class UAWTechTree {
 			// region Turrets
 			vanillaNode(duo, () -> {
 					// Gatling Tree
-					node(matterfuser, () ->
-						node(spitfire,
+					node(spitfire, () ->
 							Seq.with(
 								new Research(cyclone)
 							)
