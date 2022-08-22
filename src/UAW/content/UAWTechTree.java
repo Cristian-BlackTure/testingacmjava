@@ -116,13 +116,6 @@ public class UAWTechTree {
 			// endregion consumeables
 			// region Turrets
 			vanillaNode(duo, () -> {
-					// Gatling Tree
-					node(spitfire, () ->
-							Seq.with(
-								new Research(cyclone)
-							)
-						);
-					);
 					// Sniper Tree
 					node(ashlock, () ->
 						node(longbow,
