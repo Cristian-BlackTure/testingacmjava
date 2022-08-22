@@ -20,12 +20,12 @@ public class UAWItems {
 		}};
 		compositeAlloy = new Item("item-composite-alloy", UAWPal.compAlloyMid) {{
 			cost = 2.5f;
-		}};
-                matterialmatter = new Item("item-matterialmatter", Color.valueof("272727)) {{
-                        flammability = 999.9f;
-                        explosiveness = 999.9f;
-                        hardness = 199.9f;
                 }};
+		matterialm = new Item("item-matterialm", Color.valueOf("272727")) {{
+			flammability = 1.8f;
+			explosiveness = 0.25f;
+			hardness = 4;
+		}};
 
 	}
 }
